@@ -27,7 +27,8 @@ int main(){
 
     if (populacao1 > populacao2) {
         printf("\nResultado: Carta 1 (%s) venceu!\n", cidade1);
-    } else (populacao2 > populacao1) {
+    } else (populacao2 > populacao1); 
+    {
         printf("\nResultado: Carta 2 (%s) venceu!\n", cidade2);
     }
     return 0;
